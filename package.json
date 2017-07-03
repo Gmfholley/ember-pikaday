@@ -1,7 +1,7 @@
 {
-  "name": "ember-pikaday",
+  "name": "ember-pikaday-time",
   "version": "2.2.2",
-  "description": "A tested datepicker component for Ember CLI projects including test helpers for your own acceptance tests.",
+  "description": "A tested datetimepicker component for Ember CLI projects including test helpers for your own acceptance tests.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -48,7 +48,7 @@
     "ember-cli-htmlbars": "^1.1.1",
     "ember-cli-node-assets": "^0.2.2",
     "fastboot-transform": "^0.1.1",
-    "pikaday": "https://github.com/owenmead/Pikaday.git"
+    "pikaday-time": "https://github.com/owenmead/Pikaday.git"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

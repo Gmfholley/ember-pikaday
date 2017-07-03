@@ -6,7 +6,7 @@ module.exports = {
   name: 'ember-pikaday',
   options: {
     nodeAssets: {
-      pikaday: {
+      'pikaday-time': {
         vendor: ['pikaday.js', 'css/pikaday.css'],
         processTree(input) {
           return fastbootTransform(input);
@@ -17,7 +17,7 @@ module.exports = {
   included() {
     this._super.included.apply(this, arguments);
 
-    this.import('vendor/pikaday/pikaday.js');
-    this.import('vendor/pikaday/css/pikaday.css');
+    this.import('vendor/pikaday-time/pikaday.js');
+    this.import('vendor/pikaday-time/css/pikaday.css');
   }
 };

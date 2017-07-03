@@ -66,7 +66,8 @@ export default Ember.Mixin.create({
       incrementMinuteBy: this.get('incrementMinuteBy') || 1,
       incrementSecondBy: this.get('incrementSecondBy') || 1,
       autoClose: this.get('autoClose') || true,
-      timeLabel: this.get('timeLabel') || null
+      timeLabel: this.get('timeLabel') || null,
+      defaultDate: this.get('defaultDate') || null
     };
   },
 

@@ -4198,9 +4198,9 @@ pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
-pikaday@^1.5.1:
+"pikaday@https://github.com/owenmead/Pikaday.git":
   version "1.5.1"
-  resolved "https://registry.yarnpkg.com/pikaday/-/pikaday-1.5.1.tgz#0a48549bc1a14ea1d08c44074d761bc2f2bfcfd3"
+  resolved "https://github.com/owenmead/Pikaday.git#1f6b20ed7e07bf686e69319ef515770bca071657"
   optionalDependencies:
     moment "2.x"
 

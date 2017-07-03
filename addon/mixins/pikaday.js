@@ -57,7 +57,16 @@ export default Ember.Mixin.create({
       yearRange: this.determineYearRange(),
       minDate: this.get('minDate') || null,
       maxDate: this.get('maxDate') || null,
-      theme: this.get('theme') || null
+      theme: this.get('theme') || null,
+      showTime: this.get('showTime') || false,
+      showMinutes: this.get('showMinutes') || false,
+      showSeconds: this.get('showSeconds') || false,
+      use24hour: this.get('use24hour') || false,
+      incrementHourBy: this.get('incrementHourBy') || 1,
+      incrementMinuteBy: this.get('incrementMinuteBy') || 1,
+      incrementSecondBy: this.get('incrementSecondBy') || 1,
+      autoClose: this.get('autoClose') || true,
+      timeLabel: this.get('timeLabel') || null
     };
   },
 
